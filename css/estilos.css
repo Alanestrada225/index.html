@@ -1,0 +1,61 @@
+<!--poner fondos en la pagimas con imagenes colores, que no se repitan que no se muevan-->
+body
+{
+    background:url(../imagenescss/prueba.jpg);    
+    background-repeat:no-repeat;
+    background-repeat:repeat-x;
+    background-attachment: fixed,scroll; 
+    background-position: 50% 0;       
+    color:red;
+}
+<!--no permite dejar espacios-->
+*{     
+    margin:10 ;             
+    padding:10 ;                
+    color:#aaa;
+}
+
+div 
+{ 
+ background-color: blue;
+ background:url(../imagenescss/prueba.jpg);    
+ background-repeat:no-repeat;
+ background-repeat:repeat-x;
+ background-attachment: fixed,scroll;  
+ height:100px; 
+ widows:100px;
+    height: 0px;
+    background-position:0;
+    font-size: 30px;
+    color: black;
+    float: none;     
+
+}
+
+<!-- posicionamientos de cajas,color-->
+.caja 
+{
+    position: relative;
+    top:200px ;
+    bottom: 0;
+    right:0;
+    left:200px ;
+    background:#000;  
+    float: left,right;
+
+}
+
+<!--texto y tipografia-->
+p
+{
+    color:rgba(red, green, blue, alpha);
+    font-family:"verdana";
+    font: size 100%;
+    font-weight:bold;
+    text-align: center;
+    line-height: 0%;
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing:normal;
+    word-spacing:normal;
+}
